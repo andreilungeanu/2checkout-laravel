@@ -1,0 +1,12 @@
+{
+    "name": "tisuchi/2checkout-laravel",
+    "description": "A Laravel wrapper of 2checkout package",
+    "authors": [
+        {
+            "name": "tisuchi",
+            "email": "tisuchi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
