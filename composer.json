@@ -1,10 +1,10 @@
 {
-    "name": "tisuchi/2checkout-laravel",
+    "name": "andreilungeanu/2checkout-laravel",
     "description": "A Laravel wrapper of 2checkout package",
     "authors": [
         {
-            "name": "tisuchi",
-            "email": "tisuchi@gmail.com"
+            "name": "andreilungeanu",
+            "email": "andrei@lungeau.ro"
         }
     ],
     "minimum-stability": "dev",
