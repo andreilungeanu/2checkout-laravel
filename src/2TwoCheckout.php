@@ -2,7 +2,7 @@
 
 namespace TwoCheckOut;
 
-class TwoCheckout
+class Twocheckout
 {
     public static $sid;
     public static $privateKey;
