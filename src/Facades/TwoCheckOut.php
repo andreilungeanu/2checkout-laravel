@@ -1,10 +1,10 @@
 <?php
 
-namespace TwoCheckOut\Facades;
+namespace TwoCheckout\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class TwoCheckOut extends Facade
+class TwoCheckout extends Facade
 {
     /**
      * Get the registered name of the component.
