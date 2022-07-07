@@ -1,6 +1,6 @@
 <?php
 
-namespace Twocheckout;
+namespace TwoCheckOut;
 
 abstract class Twocheckout
 {
