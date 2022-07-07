@@ -1,6 +1,8 @@
 {
     "name": "andreilungeanu/2checkout-laravel",
     "description": "A Laravel wrapper of 2checkout package",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "andreilungeanu",
@@ -8,11 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
     "autoload": {
-        "classmap" : ["src/TwoCheckout"],
         "psr-4": {
-            "TwoCheckout\\": "src/TwoCheckout/"
+            "TwoCheckout\\": "src"
         }
-    }
+    },
+    "require": {}
 }

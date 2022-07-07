@@ -1,6 +1,6 @@
 <?php
 
-namespace andreilungeanu\Twocheckout;
+namespace Twocheckout;
 
 abstract class Twocheckout
 {

@@ -1,17 +1,34 @@
 <?php
 
-namespace Andreilungeanu\Twocheckout;
+namespace TwoCheckOut;
+
 use Illuminate\Support\ServiceProvider;
 
-class TwocheckoutServiceProvider extends ServiceProvider
+class TwoCheckoutServiceProvider extends ServiceProvider
 {
     /**
-     * Perform post-registration booting of services.
+     * Bootstrap the application services.
      *
      * @return void
      */
     public function boot()
     {
+        $this->publishes([
+            // Config file.
+            __DIR__ . '/config/2checkout.php' => config_path('2checkout.php'),
+        ]);
+    }
 
+    /**
+     * Register the application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        // 2checkout Facede.
+        $this->app->singleton('TwoCheckout', function () {
+            return new TwoCheckOut;
+        });
     }
 }
