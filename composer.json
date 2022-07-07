@@ -13,5 +13,12 @@
         "psr-4": {
             "andreilungeanu\\2checkoutLaravel\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "andreilungeanu\\2checkoutLaravel\\TwocheckoutServiceProvider"
+            ]
+        }
+    }	
 }
