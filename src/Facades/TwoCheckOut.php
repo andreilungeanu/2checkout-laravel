@@ -1,6 +1,6 @@
 <?php
 
-namespace TwoCheckOut\Facades;
+namespace TwoCheckout\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
