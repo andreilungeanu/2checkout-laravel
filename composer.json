@@ -10,8 +10,9 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
+        "classmap" : ["src/TwoCheckout"],
         "psr-4": {
-            "andreilungeanu\\Twocheckout\\": "src/"
+            "TwoCheckout\\": "src/TwoCheckout/"
         }
     },
     "extra": {
