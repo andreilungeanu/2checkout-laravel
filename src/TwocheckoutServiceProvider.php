@@ -1,6 +1,6 @@
 <?php
 
-namespace TwoCheckout;
+namespace TwoCheckOut;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -28,7 +28,7 @@ class TwoCheckoutServiceProvider extends ServiceProvider
     {
         // 2checkout Facede.
         $this->app->singleton('TwoCheckout', function () {
-            return new TwoCheckout;
+            return new TwoCheckOut;
         });
     }
 }
