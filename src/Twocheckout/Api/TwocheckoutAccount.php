@@ -1,6 +1,6 @@
 <?php
 
-class Twocheckout_Company extends TwoCheckout
+class Twocheckout_Company extends Twocheckout
 {
 
     public static function retrieve()
@@ -12,7 +12,7 @@ class Twocheckout_Company extends TwoCheckout
     }
 }
 
-class Twocheckout_Contact extends TwoCheckout
+class Twocheckout_Contact extends Twocheckout
 {
 
     public static function retrieve()
