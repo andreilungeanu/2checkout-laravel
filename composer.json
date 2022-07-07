@@ -14,12 +14,5 @@
         "psr-4": {
             "TwoCheckout\\": "src/TwoCheckout/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Andreilungeanu\\Twocheckout\\TwocheckoutServiceProvider"
-            ]
-        }
-    }	
+    }
 }
